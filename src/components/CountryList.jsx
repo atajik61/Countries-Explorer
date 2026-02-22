@@ -10,8 +10,8 @@ export default function CountryList({ countries, loading }) {
   return (
     <div className="row g-3 g-md-4">
       {countries.map((country) => (
-        <div className="col-12 col-sm-6 col-lg-4" key={country.name.common}> {/* استفاده از key متناسب با نام کشور */}
-          <CountriesCard country={country} /> {/* نمایش اطلاعات داخل CountriesCard */}
+        <div className="col-12 col-sm-6 col-lg-4" key={country.name.common}> 
+          <CountriesCard country={country} /> 
         </div>
       ))}
     </div>
