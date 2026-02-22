@@ -1,3 +1,49 @@
+# Country Info App
+
+## Description
+This application displays information about various countries, including their flags, capitals, populations, and regions. It fetches data from a public API to provide real-time country information.
+
+## How to Run It
+
+1. **Create a new Vite project (if you haven't already)**
+    ```bash
+    npx create-vite@latest country-info-app
+    cd country-info-app
+    ```
+
+2. **Install dependencies**
+    ```bash
+    npm install
+    ```
+
+3. **Start the application**
+    ```bash
+    npm run dev
+    ```
+
+4. **Open in your browser**
+   Navigate to `http://localhost:5173` to view the app.
+
+## API Endpoints Used
+This application uses the following API endpoint to fetch country data:
+
+- **URL**: [REST Countries API]
+- **Description**: This endpoint retrieves data for all countries, including names, capitals, populations, regions, and flag URLs.
+
+## Screenshots
+
+### Home Page
+![Home Page](images/home.png)
+
+### Results Page
+![Results Page](images/result.png)
+
+## Technologies Used
+- Vite
+- React
+- JavaScript
+- CSS
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
